@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #4B0082;
+    /* Violet */
+    color: #FF1493;
+    /* Rose */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #9400D3;
+    /* Assombrir la couleur au survol */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>micro mais si EFFICACE</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+    <div class="content">
+        <label for="searchInput">Recherche : </label>
+        <input type="text" id="searchInput" oninput="checkKeyword()" onkeydown="checkEnterKey()">
+        <div id="hiddenButton" style="display: none;">
+            <button onclick="showHiddenContent()">Valider</button>
+        </div>
+        <div id="resultText" style="display: none;"></div>
+        <div id="nextButton" style="display: none;">
+            <button onclick="openNextPage()">Suite</button>
+        </div>
+    </div>
+    <script src="scriptjeuone.js"></script>
+</body>
+
+</html>
